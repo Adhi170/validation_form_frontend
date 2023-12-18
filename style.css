@@ -1,0 +1,65 @@
+body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(121, 9, 99, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    background-attachment: fixed;
+}
+
+#form {
+    width: 400px;
+    margin: 20vh auto 0 auto;
+    background-color: whitesmoke;
+    padding: 30px;
+    border-radius: 20px;
+    color: black;
+}
+
+h1 {
+    text-align: center;
+    color: purple;
+}
+
+#form button {
+    background-color: purple;
+    padding: 10px;
+    margin: 20px 0px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.input-group input {
+    border: 1px solid aqua; /* Set default border color */
+    padding: 5px;
+    margin-top: 15px;
+    font-size: small;
+}
+
+.input-group input:focus {
+    outline: 0;
+}
+
+.error {
+    color: red;
+    margin-top: 5px;
+}
+
+.input-group.success input {
+    border-color:   green;
+    border-width:2px;
+    
+}
+
+
+.input-group.error input {
+    border-color: red; 
+}
+.input-group.error label {
+    color:initial;
+}
+
